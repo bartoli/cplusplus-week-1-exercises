@@ -41,7 +41,7 @@ Your task is to complete the `// TODO:` items found in `src/main.cpp` and `src/m
 
 <img src="https://github.com/btrust-builders/cplusplus-week-1-exercises/blob/main/success.png" width="300" />
 
-9. Submit your solution to this form: [Google form](https://forms.gle/a3ibaSHcqpaZWsnPA).
+9. Submit your solution to this form: [Google form](https://forms.gle/Hr7beNMa6h4FdTgh9).
 
 PS: You can commit and push as often as you like and GitHub Actions will re-evaluate your code every time.
 You will need to look through the auto-grader logs (in the "Actions" tab) to see what exactly you got right or wrong.
