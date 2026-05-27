@@ -169,4 +169,3 @@ TEST(BitcoinFunctions, FindUtxoWithMinValue) {
     EXPECT_FALSE(find_utxo_with_min_value(utxos, 100'000).has_value());
     EXPECT_FALSE(find_utxo_with_min_value({}, 10'000).has_value());
 }
-

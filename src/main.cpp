@@ -1,5 +1,7 @@
 #include "main.h"
 
+#include <cmath>
+
 double calculate_total_reward(int blocks_mined) {
     return MINING_REWARD*blocks_mined;
 }
@@ -122,7 +124,7 @@ std::pair<bool, std::string> validate_block_height(int height) {
 
 std::pair<bool, std::string> validate_block_height(double height) {
     // TODO: a non-integer block height should always be rejected
-    if(height != floor(height))
+    if(height != std::floor(height))
       return {false, "Block height must be an integer"};
     return validate_block_height(int(height));
 }
